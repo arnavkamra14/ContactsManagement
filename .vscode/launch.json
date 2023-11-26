@@ -6,17 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "To Do List",
+            "name": "Contacts",
             "request": "launch",
-            "mainClass": "TodoList.Main",
-            "vmArgs": "--module-path '/Users/danielcarrascoza/Documents/CSE110/CSE_110_FA23_Lab1/lib' --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "Image Uploader",
-            "request": "launch",
-            "mainClass": "ImageUploader.Main",
-            "vmArgs": "--module-path '/Users/danielcarrascoza/Documents/CSE110/CSE_110_FA23_Lab1/lib' --add-modules javafx.controls,javafx.fxml"
-        } 
+            "mainClass": "Contacts.Main",
+            "vmArgs": "--module-path '/Users/arnavkamra/Desktop/CSE 110/CSE_110_MiniProject/lib' --add-modules javafx.controls,javafx.fxml"
+        }
     ]
 }
